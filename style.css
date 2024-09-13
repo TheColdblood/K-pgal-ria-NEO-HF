@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.galeria .kep {
+    flex: 0 0 200px;
+}
+
+.galeria img {
+    width: 100%;
+}
+
+.nagykep div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nagykep {
+    padding: 10px;
+    border: 1px solid gray; 
+    border-radius: 10px;
+}
+
+.nagykep img {
+    width: 70%;
+}
+
+.galeria-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.galeria-controls button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
